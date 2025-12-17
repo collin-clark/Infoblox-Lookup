@@ -4,4 +4,5 @@ A simple webapp the queries your local Infoblox Grid Master to get information a
 
 Either clone this repo into your Flask server or search packetpros\infoblox-lookup on Docker Hub.
 Which ever way you choose you will need to create a .env file to set the credentials, URL and WAPI version. There is an example in the repo.
-![Uploading infoblox_lookup.png…]()
+
+<img width="800" height="471" alt="infoblox_lookup" src="https://github.com/user-attachments/assets/e084eba3-7f6f-417a-989c-111c89208a64" />
