@@ -19,8 +19,8 @@ GM_PWD = os.environ.get("GM_PWD")
 GM_URL = os.environ.get("GM_URL")
 WAPI_VERSION = os.environ.get("WAPI_VERSION")
 
-if not GM_USER or not GM_PWD:
-    raise RuntimeError("GM_USER and GM_PWD must be set")
+if not GM_USER or not GM_PWD or not GM_URL:
+    raise RuntimeError("Username (GM_USER), password (GM_PWD) and URL (GM_URL) must be set")
 
 INFOBLOX_URL = "https://" + GM_URL + "/wapi/" + WAPI_VERSION + "/search"
 REQUEST_TIMEOUT = 10
@@ -74,3 +74,4 @@ def api_querydns():
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=9000)
+
