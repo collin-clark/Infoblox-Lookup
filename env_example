@@ -1,4 +1,4 @@
 GM_USER =  #--Grid Master User with API permissions
 GM_PWD =
 GM_URL =  #--FQDN/IP Address
-WAPI_VERSION = '2.9'  #--Change only if needed
+WAPI_VERSION = 'v2.9'  #--Change only if needed
